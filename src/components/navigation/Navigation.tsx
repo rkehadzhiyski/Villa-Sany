@@ -3,17 +3,20 @@ import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 
+import styles from './navigation.module.css';
+
+
 const Navigation = () => {
     return (
         <AppBar position="static">
-            <Toolbar>
-                <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+            <Toolbar className={styles['nav-container']}>
+                <Typography color='secondary' variant="h6" component="div" sx={{ flexGrow: 1 }}>
                     Villa Sani
                 </Typography>
 
-                <Button color="inherit">Contact us</Button>
-                <Button color="inherit">About us</Button>
-                <Button color="inherit">Въпроси</Button>
+                <Button color='secondary'>Contact us</Button>
+                <Button color='secondary'>About us</Button>
+                <Button color='secondary'>Въпроси</Button>
 
             </Toolbar>
         </AppBar>
