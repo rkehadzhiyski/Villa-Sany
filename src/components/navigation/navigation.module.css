@@ -1,3 +1,20 @@
 .nav-container {
     background-color: white;
 }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 7rem;
+}
+
+.left-section{
+padding-left: 15px;
+}
+
+.right-section {
+    display: flex;
+    gap: 5px;
+    padding-right: 15px;
+}
