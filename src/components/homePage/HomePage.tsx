@@ -4,14 +4,19 @@ const HomePage = () => {
     return (
         <>
             <section className={styles['top-section']}>
-                <h2 className={styles.heading}>Welcome to Villa Sani</h2>
+                <h2 className={styles.heading}>За нас</h2>
                 <div className={styles['info-container']}>
                     <p className={styles.info}>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Adipisci doloremque nam, tenetur harum rerum, non at assumenda totam deserunt natus blanditiis
-                        amet quas nulla suscipit ver
-                        o quaerat explicabo voluptatem voluptatibus!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit distinctio veniam quasi, expedita alias amet soluta, iure ut natus deserunt repellat sint. Cupiditate minima quidem similique autem velit vel ipsum, consectetur quos molestias suscipit architecto voluptas dolor ut esse. Veniam, impedit eum? Magnam ipsa incidunt vel facere porro dolorum nulla.
+                        Добре дошли в нашия затворен комплекс в Созопол - идеалното място за тези, които търсят уют и спокойствие.
+                        Всеки момент в нашия комплекс е наситен с удоволствие - от открития басейн до градината.
+                    </p>
+                    <p className={styles.info}>
+                        Самостоятелните вили са с капацитет до 8 души и общо 150 кв.м., напълно климатизирани.
+                        Кухнята е оборудвана, а трапезарията и всекидневната създават пространство за споделяне на приятни моменти.
+                    </p>
+                    <p className={styles.info}>
+                        Вилите са обзаведени с необходимото за една приятна почивка - пералня,телевизия, интернет.
+                        Самостоятелната веранда ви предоставя уединено пространство с изглед към градината и басейна, където може да се насладите на спокойствието.
                     </p>
                 </div>
             </section>

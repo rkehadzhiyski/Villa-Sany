@@ -7,7 +7,7 @@ const Navigation = () => {
         <nav className={styles['navigation']}>
             <div className={styles['left-section']}>
                 <img className={styles.logo} src="src\assets\logo.png" alt="Villa-Sani-logo" />
-                <h2>Villa Sani</h2>
+                <h2>Вила Сани</h2>
             </div>
             
             <div className={styles['right-section']}>
