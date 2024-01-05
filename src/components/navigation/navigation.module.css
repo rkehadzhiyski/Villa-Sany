@@ -11,3 +11,15 @@
     z-index: 1;
     padding: 0px 35px; 
 }
+
+.left-section{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+}

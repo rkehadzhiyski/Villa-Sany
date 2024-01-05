@@ -6,6 +6,7 @@ const Navigation = () => {
     return (
         <nav className={styles['navigation']}>
             <div className={styles['left-section']}>
+                <img className={styles.logo} src="src\assets\logo.png" alt="Villa-Sani-logo" />
                 <h2>Villa Sani</h2>
             </div>
             
