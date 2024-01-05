@@ -13,7 +13,9 @@ const Footer = () => {
     return (
         <footer className={styles['footer-wrapper']}>
             <div className={styles['footer-top']}>
-                <img className={styles['social-media']} src="src\assets\facebook.png" alt="facebook" />
+                <a href="https://www.facebook.com/vilasanisozopol">
+                    <img className={styles['social-media']} src="src\assets\facebook.png" alt="facebook" />
+                </a>
                 <ul className={styles.contacts}>
                     <li className={styles.tel}>Телефон за връзка: (800) 654-0269 or (206) 785-1695</li>
                     <li className={styles.address}>P O Box 77466, Seattle WA 98177-0466 USA - info@rentavilla.com</li>
@@ -28,7 +30,7 @@ const Footer = () => {
                     '&:hover': {
                         color: 'black',
                     },
-                    }} onClick={scrollToTop} />
+                }} onClick={scrollToTop} />
             </div>
         </footer>
     );
