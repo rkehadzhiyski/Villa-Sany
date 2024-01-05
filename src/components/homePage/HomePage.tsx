@@ -21,8 +21,16 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <section>
-
+            <section className={styles['bottom-section']}>
+                <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                    <img className={styles.image} src="https://img.vila.bg/g/2260/184188.jpg" alt="" />
+                </div>
+                <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                    <img className={styles.image} src="https://img.vila.bg/g/2260/184153.jpg" alt="" />
+                </div>
+                <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                    <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
+                </div>
             </section>
         </>
     );
