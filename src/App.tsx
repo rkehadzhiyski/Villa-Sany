@@ -1,4 +1,5 @@
 import Carousel from "./components/carousel/Carousel"
+import HomePage from "./components/homePage/HomePage";
 import Navigation from "./components/navigation/Navigation"
 
 import './css/embla.css';
@@ -9,6 +10,7 @@ function App() {
     <div className={styles['main-container']}>
       <Navigation/>
       <Carousel/>
+      <HomePage/>
     </div>
   )
 }

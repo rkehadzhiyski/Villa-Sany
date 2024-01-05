@@ -18,7 +18,7 @@
 .embla__slide {
     flex: 0 0 var(--slide-size);
     min-width: 0;
-    max-height: 650px;
+    max-height: 750px;
     padding-left: var(--slide-spacing);
     position: relative;
 }
