@@ -1,8 +1,11 @@
 import styles from './homePage.module.css'
 
+import Carousel from '../carousel/Carousel';
+
 const HomePage = () => {
     return (
         <>
+            <Carousel/>
             <section className={styles['top-section']}>
                 <h2 className={styles.heading}>За нас</h2>
                 <div className={styles['info-container']}>

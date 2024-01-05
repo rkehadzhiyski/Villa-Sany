@@ -1,0 +1,15 @@
+.question-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+.question {
+    color: #0A4960;
+    font-size: 50px;
+}
+
+.answer{
+    color: #3f3f43;
+}
