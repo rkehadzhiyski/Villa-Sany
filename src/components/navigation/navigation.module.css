@@ -9,20 +9,5 @@
     left: 0;
     right: 0;
     z-index: 1;
+    padding: 0px 35px; 
 }
-
-.left-section {
-    padding-left: 20px;
-}
-
-.right-section {
-    display: flex;
-    gap: 5px;
-    padding-left: 20px;
-}
-
-/* .logo {
-    width: 200px;
-    height: 200px;
-    margin-left: 135px;
-} */

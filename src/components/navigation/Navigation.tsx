@@ -11,13 +11,13 @@ const Navigation = () => {
             
             <div className={styles['right-section']}>
                 <Button sx={{
-                    color: '#9c5d30'
+                    color: '#3f3f43'
                 }} >Contact us</Button>
                 <Button sx={{
-                    color: '#9c5d30'
+                    color: '#3f3f43'
                 }} >About us</Button>
                 <Button sx={{
-                    color: '#9c5d30'
+                    color: '#3f3f43'
                 }} >Въпроси</Button>
             </div>
         </nav>
