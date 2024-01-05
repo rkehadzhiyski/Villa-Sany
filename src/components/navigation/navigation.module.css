@@ -1,7 +1,3 @@
-.nav-container {
-    background-color: white;
-}
-
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -9,12 +5,18 @@
     height: 7rem;
 }
 
-.left-section{
-padding-left: 15px;
+.left-section {
+    padding-left: 20px;
 }
 
 .right-section {
     display: flex;
     gap: 5px;
-    padding-right: 15px;
+    padding-left: 20px;
 }
+
+/* .logo {
+    width: 200px;
+    height: 200px;
+    margin-left: 135px;
+} */
