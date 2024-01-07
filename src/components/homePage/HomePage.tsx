@@ -54,7 +54,6 @@ const HomePage = () => {
                     <Button sx={{ color: '#3f3f43'}} size="large">Галерия</Button>
                 </Link>
             </section>
-
         </>
     );
 }
