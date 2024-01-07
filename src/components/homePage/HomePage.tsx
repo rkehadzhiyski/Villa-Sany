@@ -5,7 +5,7 @@ import Carousel from '../carousel/Carousel';
 const HomePage = () => {
     return (
         <>
-            <Carousel/>
+            <Carousel />
             <section className={styles['top-section']}>
                 <h2 className={styles.heading}>За нас</h2>
                 <div className={styles['info-container']}>
@@ -25,16 +25,29 @@ const HomePage = () => {
             </section>
 
             <section className={styles['bottom-section']}>
-                <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
-                    <img className={styles.image} src="https://img.vila.bg/g/2260/184188.jpg" alt="" />
-                </div>
-                <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
-                    <img className={styles.image} src="https://img.vila.bg/g/2260/184153.jpg" alt="" />
-                </div>
-                <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
-                    <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
+                <h2 className={styles.heading}>Галерия</h2>
+                <div className={styles['inner-container']}>
+                    <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                        <img className={styles.image} src="https://img.vila.bg/g/2260/184188.jpg" alt="" />
+                    </div>
+                    <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                        <img className={styles.image} src="https://img.vila.bg/g/2260/184153.jpg" alt="" />
+                    </div>
+                    <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                        <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
+                    </div>
+                    <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                        <img className={styles.image} src="https://img.vila.bg/g/2260/184188.jpg" alt="" />
+                    </div>
+                    <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                        <img className={styles.image} src="https://img.vila.bg/g/2260/184153.jpg" alt="" />
+                    </div>
+                    <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
+                        <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
+                    </div>
                 </div>
             </section>
+
         </>
     );
 }

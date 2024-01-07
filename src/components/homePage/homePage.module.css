@@ -7,6 +7,14 @@
     padding: 50px;
 }
 
+.bottom-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
 .heading {
     color: #0A4960;
     font-size: 30px;
@@ -23,10 +31,11 @@
     color: #3f3f43;
 }
 
-.bottom-section {
+.inner-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 50px;
 }
