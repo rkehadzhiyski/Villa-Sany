@@ -41,7 +41,7 @@ const AccordionDetails = styled(MuiAccordionDetails)(({ theme }) => ({
 
 
 const Questions = () => {
-    const [expanded, setExpanded] = React.useState<string | false>('panel1');
+    const [expanded, setExpanded] = React.useState<string | false>(false);
 
     const handleChange =
         (panel: string) => (event: React.SyntheticEvent, newExpanded: boolean) => {
@@ -54,14 +54,11 @@ const Questions = () => {
             <div className={styles['question-container']}>
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                     <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                        <Typography sx={{ fontSize: '35px' }} className={styles.question}>Collapsible Group Item #1</Typography>
+                        <Typography sx={{ fontSize: '35px' }} className={styles.question}>В колко часа е настаняването и в колко часа е напускането на вилата?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className={styles.answer}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                            malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem ipsum dolor
-                            sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex,
-                            sit amet blandit leo lobortis eget.
+                            Настаняването във вилата е след 14:00 часа а напускането е до 11:00 часа.
                         </Typography>
                     </AccordionDetails>
                 </Accordion>
