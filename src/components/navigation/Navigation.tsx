@@ -14,13 +14,15 @@ const Navigation = () => {
             </div>
 
             <div className={styles['right-section']}>
-                <Button sx={{
-                    color: '#3f3f43'
-                }} >Contact us</Button>
+                <Link to='/villa-info'>
+                    <Button sx={{
+                        color: '#3f3f43'
+                    }} >За Вилата</Button>
+                </Link>
                 <Button sx={{
                     color: '#3f3f43'
                 }} >About us</Button>
-                <Link to="/questions-and-answers">
+                <Link to='/questions-and-answers'>
                     <Button sx={{ color: '#3f3f43' }}>Въпроси</Button>
                 </Link>
             </div>
