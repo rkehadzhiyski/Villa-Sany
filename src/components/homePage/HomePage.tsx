@@ -1,6 +1,8 @@
-import styles from './homePage.module.css'
-
 import Carousel from '../carousel/Carousel';
+import Button from '@mui/material/Button';
+
+import styles from './homePage.module.css'
+import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -25,7 +27,6 @@ const HomePage = () => {
             </section>
 
             <section className={styles['bottom-section']}>
-                <h2 className={styles.heading}>Галерия</h2>
                 <div className={styles['inner-container']}>
                     <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
                         <img className={styles.image} src="https://img.vila.bg/g/2260/184188.jpg" alt="" />
@@ -46,6 +47,12 @@ const HomePage = () => {
                         <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
                     </div>
                 </div>
+
+                <p className={styles.info}>За още снимки посетете галерията</p>
+                
+                <Link to="/">
+                    <Button sx={{ color: '#3f3f43'}} size="large">Галерия</Button>
+                </Link>
             </section>
 
         </>

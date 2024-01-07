@@ -54,7 +54,7 @@ const Questions = () => {
             <div className={styles['question-container']}>
                 <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                     <AccordionSummary aria-controls="panel1d-content" id="panel1d-header">
-                        <Typography sx={{ fontSize: '35px' }} className={styles.question}>В колко часа е настаняването и в колко часа е напускането на вилата?</Typography>
+                        <Typography sx={{ fontSize: '35px' }} className={styles.question}>В колко часа е настаняването и напускането на вилата?</Typography>
                     </AccordionSummary>
                     <AccordionDetails>
                         <Typography className={styles.answer}>
