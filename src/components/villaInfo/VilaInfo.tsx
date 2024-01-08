@@ -6,15 +6,19 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import RestaurantOutlinedIcon from '@mui/icons-material/RestaurantOutlined';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 import SmallCarousel from '../carousels/smallCarousel/SmallCarousel';
+import AccordionText from '../accordionText/AccordionText';
 
 import { EmblaOptionsType } from 'embla-carousel'
 
 const OPTIONS: EmblaOptionsType = { loop: true }
 
+const longText = `To the south is Amareleja where you can enjoy really nice food. Alentejo is renowned for its wine, so you can visit the vineyards and do tastings, as well as sample some of the local olive oil.
+Other activities in the area include horseback riding, water skiing and boat rides, as well as hot air ballooning. Because of the lack of light pollution, Alentejo is also one of the best places to stargaze in Portugal.`;
+
 const VillaInfo = () => {
     return (
         <>
-            <section className={styles['first-section']}>
+            <section className={styles.section}>
                 <h2>Вила Сани</h2>
                 <div className={styles['main-info-container']}>
                     <div className={styles['inner']}>
@@ -50,6 +54,10 @@ const VillaInfo = () => {
             </section>
 
         <SmallCarousel options={OPTIONS}/>
+
+        <section className={styles.section}>
+        <AccordionText  text={longText}/>
+        </section>
 
             <div>
                 <iframe

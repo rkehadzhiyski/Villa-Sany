@@ -1,0 +1,16 @@
+.readMoreContent {
+    overflow: hidden;
+    max-height: 100px;
+    transition: max-height 0.3s ease-out;
+}
+
+.expanded {
+    max-height: none;
+}
+
+.readMoreBtn {
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+    display: block;
+}
