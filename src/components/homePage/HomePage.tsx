@@ -1,4 +1,4 @@
-import Carousel from '../carousel/Carousel';
+import BigCarousel from '../carousels/bigCarousel/BigCarousel';
 import Button from '@mui/material/Button';
 
 import styles from './homePage.module.css'
@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 const HomePage = () => {
     return (
         <>
-            <Carousel />
+            <BigCarousel />
             <section className={styles['top-section']}>
                 <h2 className={styles.heading}>За нас</h2>
                 <div className={styles['info-container']}>

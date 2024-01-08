@@ -5,7 +5,7 @@ const autoplayOptions = {
     delay: 5000
 }
 
-const Carousel = () => {
+const BigCarousel = () => {
     const [emblaRef] = useEmblaCarousel({ loop: true }, [Autoplay(autoplayOptions)])
     return (
         <div className="embla" ref={emblaRef}>
@@ -19,4 +19,4 @@ const Carousel = () => {
 };
 
 
-export default Carousel;
+export default BigCarousel;
