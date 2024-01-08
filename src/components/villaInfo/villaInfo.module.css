@@ -2,6 +2,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .main-info-container {
@@ -23,6 +25,10 @@
     font-size: 18px;
 }
 
-.test{
-    width: 700px;
+.carusel{
+    width: 800px;
+}
+
+.accordion{
+    background-color: #f7f5f1;
 }

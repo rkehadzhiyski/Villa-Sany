@@ -53,11 +53,15 @@ const VillaInfo = () => {
                 </div>
             </section>
 
-        <SmallCarousel options={OPTIONS}/>
+            <section className={styles.accordion}>
+                <AccordionText text={longText} />
+            </section>
 
-        <section className={styles.section}>
-        <AccordionText  text={longText}/>
-        </section>
+            <section className={styles.section}>
+                <div className={styles.carusel}>
+                    <SmallCarousel options={OPTIONS} />
+                </div>
+            </section>
 
             <div>
                 <iframe
