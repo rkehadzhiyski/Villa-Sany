@@ -1,3 +1,11 @@
+p{
+    margin: 0;
+}
+
+h3{
+    margin: 0;
+}
+
 .section {
     display: flex;
     flex-direction: column;
@@ -6,7 +14,7 @@
     margin-right: auto;
 }
 
-.section:nth-child(3){
+.section:nth-child(4){
     background-color: #f7f5f1;
     margin-top: 25px;
 }
@@ -36,4 +44,28 @@
 
 .accordion{
     background-color: #f7f5f1;
+}
+
+.important-info{
+    background-color: white;
+    display: flex;
+    gap: 30px;
+    padding: 40px;
+    margin-bottom: 50px;
+}
+
+.info-left {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.info-right{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.important{
+    color: red;
 }

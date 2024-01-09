@@ -6,11 +6,18 @@ import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import RestaurantOutlinedIcon from '@mui/icons-material/RestaurantOutlined';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 import SmallCarousel from '../carousels/smallCarousel/SmallCarousel';
+import BigCarousel from '../carousels/bigCarousel/BigCarousel';
 import AccordionText from '../accordionText/AccordionText';
 
 import { EmblaOptionsType } from 'embla-carousel'
 
 const OPTIONS: EmblaOptionsType = { loop: true }
+
+const images = [
+    'https://img.vila.bg/g/2260/184180.jpg',
+    'https://img.vila.bg/g/2260/184175.jpg',
+    'https://img.vila.bg/g/2260/184183.jpg',
+]
 
 const longText = `To the south is Amareleja where you can enjoy really nice food. Alentejo is renowned for its wine, so you can visit the vineyards and do tastings, as well as sample some of the local olive oil.
 Other activities in the area include horseback riding, water skiing and boat rides, as well as hot air ballooning. Because of the lack of light pollution, Alentejo is also one of the best places to stargaze in Portugal.`;
@@ -18,6 +25,7 @@ Other activities in the area include horseback riding, water skiing and boat rid
 const VillaInfo = () => {
     return (
         <>
+            <BigCarousel />
             <section className={styles.section}>
                 <h2>Вила Сани</h2>
                 <div className={styles['main-info-container']}>
@@ -59,9 +67,41 @@ const VillaInfo = () => {
                 </section>
 
                 <div className={styles.carousel}>
-                    <SmallCarousel options={OPTIONS} />
+                    <SmallCarousel options={OPTIONS} images={images} />
                 </div>
-            </section>      
+
+                <div className={styles['important-info']}>
+                    <div className={styles['info-left']}>
+                        <h3>Included in the rates</h3>
+                        <p>
+                            Rates include bed/bath/pool linen, a pre-stocked pantry with basics, one meal prepared by a chef (day and time to be arranged before arrival), mid-week cleaning (towel/bedsheet change on request) and final cleaning.
+                        </p>
+                        <h3>
+                            Children & Extra beds
+                        </h3>
+                        <p>
+                            We are happy to have children as guests and have a dedicated room for them as well as a dining table and chairs, custom-made, for them to feel special. Cutlery, cups, dishes, bib, high-chair, toys, and pool toys are available. Crib and other specific items might be available on request (e.g. bottle warmer, bottles, bath, etc.).
+                        </p>
+                    </div>
+                    <div className={styles['info-right']}>
+                        <div>
+                            <h3>Minimum stay</h3>
+                            <p>3 - 5 nights (check calendar for dates)</p>
+                        </div>
+                        <div>
+                            <h3>Check in time</h3>
+                            <p>after 16:00</p>
+                        </div>
+                        <div>
+                            <h3>Check out time</h3>
+                            <p>before 11:00</p>
+                        </div>
+                        <div>
+                            <p className={styles.important}>Closed December to January</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <div>
                 <iframe
