@@ -1,9 +1,14 @@
 .accordion-container {
-    margin: 0 300px;
+    margin: 0 500px;
 }
 
 .gradient {
     background: -webkit-linear-gradient(#3f3f43, #eee);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.button {
+    color: #3f3f43;
 }

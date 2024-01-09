@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import styles from './accordionText.module.css';
 
+import Button from '@mui/material/Button';
+
 interface ReadMoreProps {
     text: string;
 }
@@ -44,10 +46,12 @@ const AccordionText: React.FC<ReadMoreProps> = () => {
                     I also love the night sky, which is amazing. You can see shooting stars every night and satellites passing by, as well as all the colours of the Milky Way. You don’t need any equipment, just the naked eye.
                 </p>
             )}
+            
+            <Button size="small" sx={{ color: '#3f3f43', fontSize: '12px' }} onClick={toggleReadMoreLess}>{isShowMore ? "Read Less" : "Read More"}</Button>            
 
-            <button onClick={toggleReadMoreLess}>
+            {/* <button className={styles.button} onClick={toggleReadMoreLess}>
                 {isShowMore ? "Read Less" : "Read More"}
-            </button>
+            </button> */}
         </div>
     );
 }
