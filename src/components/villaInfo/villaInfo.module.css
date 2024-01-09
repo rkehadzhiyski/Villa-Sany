@@ -6,6 +6,11 @@
     margin-right: auto;
 }
 
+.section:nth-child(3){
+    background-color: #f7f5f1;
+    margin-top: 25px;
+}
+
 .main-info-container {
     display: flex;
     max-width: 500px;
@@ -25,8 +30,8 @@
     font-size: 18px;
 }
 
-.carusel{
-    width: 800px;
+.carousel{
+    width: 850px;
 }
 
 .accordion{
