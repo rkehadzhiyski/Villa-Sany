@@ -32,7 +32,7 @@ const VillaInfo = () => {
                     <div className={styles['inner']}>
                         <div className={styles.align}>
                             <HomeOutlinedIcon />
-                            <p>200kw</p>
+                            <p>200m²</p>
                         </div>
 
                         <div className={styles.align}>
@@ -72,6 +72,16 @@ const VillaInfo = () => {
 
                 <div className={styles.carousel}>
                     <SmallCarousel options={OPTIONS} images={images} />
+                </div>
+
+                <div className={styles['additional-info-container']}>
+                    <div className={styles['additional-info-left']}>
+                        <p>Villa Castelo for 8-10 people / 250 m²</p>
+                    </div>
+
+                    <div className={styles['additional-info-right']}>
+                        <p>€1,200 / night</p>
+                    </div>
                 </div>
 
                 <div className={styles['important-info']}>
