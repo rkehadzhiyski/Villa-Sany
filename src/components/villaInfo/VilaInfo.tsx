@@ -32,16 +32,20 @@ const VillaInfo = () => {
                     <div className={styles['inner']}>
                         <div className={styles.align}>
                             <HomeOutlinedIcon />
-                            200kw
+                            <p>200kw</p>
                         </div>
+
                         <div className={styles.align}>
                             <BedOutlinedIcon />
-                            3 bedrooms for 8-10 people
+                            <p>3 bedrooms for 8-10 people</p>
                         </div>
+
                         <div className={styles.align}>
                             <CheckCircleOutlineOutlinedIcon />
-                            Ideal for couples, families & groups
-                            Children welcome
+                            <p>
+                                Ideal for couples, families & groups
+                                Children welcome
+                            </p>
                         </div>
                     </div>
 
@@ -72,30 +76,41 @@ const VillaInfo = () => {
 
                 <div className={styles['important-info']}>
                     <div className={styles['info-left']}>
-                        <h3>Included in the rates</h3>
-                        <p>
-                            Rates include bed/bath/pool linen, a pre-stocked pantry with basics, one meal prepared by a chef (day and time to be arranged before arrival), mid-week cleaning (towel/bedsheet change on request) and final cleaning.
-                        </p>
-                        <h3>
-                            Children & Extra beds
-                        </h3>
-                        <p>
-                            We are happy to have children as guests and have a dedicated room for them as well as a dining table and chairs, custom-made, for them to feel special. Cutlery, cups, dishes, bib, high-chair, toys, and pool toys are available. Crib and other specific items might be available on request (e.g. bottle warmer, bottles, bath, etc.).
-                        </p>
+                        <div>
+                            <h3>Included in the rates</h3>
+                            <p>
+                                Rates include bed/bath/pool linen, a pre-stocked pantry with basics,
+                                one meal prepared by a chef (day and time to be arranged before arrival),
+                                mid-week cleaning (towel/bedsheet change on request) and final cleaning.
+                            </p>
+                        </div>
+
+                        <div>
+                            <h3>Children & Extra beds</h3>
+                            <p>
+                                We are happy to have children as guests and have a dedicated room for
+                                them as well as a dining table and chairs, custom-made, for them to feel special.
+                                Cutlery, cups, dishes, bib, high-chair, toys, and pool toys are available.
+                                Crib and other specific items might be available on request (e.g. bottle warmer, bottles, bath, etc.).
+                            </p>
+                        </div>
                     </div>
                     <div className={styles['info-right']}>
                         <div>
                             <h3>Minimum stay</h3>
                             <p>3 - 5 nights (check calendar for dates)</p>
                         </div>
+
                         <div>
                             <h3>Check in time</h3>
                             <p>after 16:00</p>
                         </div>
+
                         <div>
                             <h3>Check out time</h3>
                             <p>before 11:00</p>
                         </div>
+
                         <div>
                             <p className={styles.important}>Closed December to January</p>
                         </div>

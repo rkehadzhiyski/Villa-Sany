@@ -6,3 +6,12 @@ body{
 .main-container{
     margin-top: 7rem;
 }
+
+p{
+    margin: 0;
+    color: #3f3f43;
+}
+
+h3{
+    margin: 0;
+}
