@@ -6,20 +6,20 @@ import ScrollToTop from "./components/scrollToTop/ScrollToTop";
 import VillaInfo from "./components/villaInfo/VilaInfo";
 
 import './css/embla.css';
-import styles from './main.module.css';
+import './main.css';
 
 import { Route, Routes } from "react-router-dom"
 
 function App() {
     return (
-        <div className={styles['main-container']}>
+        <div className='main-container'>
             <Navigation />
-                <ScrollToTop />
-                <Routes>
-                    <Route path='/' element={<HomePage />} />
-                    <Route path='/questions-and-answers' element={<Questions />} />
-                    <Route path='/villa-info' element={<VillaInfo/>}></Route>
-                </Routes>
+            <ScrollToTop />
+            <Routes>
+                <Route path='/' element={<HomePage />} />
+                <Route path='/questions-and-answers' element={<Questions />} />
+                <Route path='/villa-info' element={<VillaInfo />}></Route>
+            </Routes>
             <Footer />
         </div>
     )

@@ -37,7 +37,7 @@ const VillaInfo = () => {
 
                         <div className={styles.align}>
                             <BedOutlinedIcon />
-                            <p>3 bedrooms for 8-10 people</p>
+                            <p>4 стай 8 човека</p>
                         </div>
 
                         <div className={styles.align}>
@@ -59,7 +59,9 @@ const VillaInfo = () => {
                         </div>
                         <div className={styles.align}>
                             <LocationOnOutlinedIcon />
-                            Location: Countryside
+                            <p>
+                                <span className={styles.bold}>Локация:</span> местност Буджака, Созопол,България
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -76,11 +78,29 @@ const VillaInfo = () => {
 
                 <div className={styles['additional-info-container']}>
                     <div className={styles['additional-info-left']}>
-                        <p>Villa Castelo for 8-10 people / 250 m²</p>
+                        <p>Вила Сани за 8 човека / 250 m²</p>
                     </div>
 
                     <div className={styles['additional-info-right']}>
-                        <p>€1,200 / night</p>
+                        <p>€1,200 / ден</p>
+                    </div>
+                </div>
+
+                <div className={styles['ul-container']}>
+                    <div>
+                        <ul className={styles.list}>
+                            <li>4 Двойни стай</li>
+                            <li>1 Дневна</li>
+                            <li>1 Кухненски бокс</li>
+                            <li>Климатизацирани</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <ul className={styles.list}>
+                            <li>2 Бани</li>
+                            <li>Добълнителни легла*</li>
+                            <li>Веранда</li>
+                        </ul>
                     </div>
                 </div>
 
