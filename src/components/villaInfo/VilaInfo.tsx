@@ -98,7 +98,7 @@ const VillaInfo = () => {
                     <div>
                         <ul className={styles.list}>
                             <li>2 Бани</li>
-                            <li>Добълнителни легла*</li>
+                            <li>Допълнителни легла*</li>
                             <li>Веранда</li>
                         </ul>
                     </div>
@@ -146,7 +146,31 @@ const VillaInfo = () => {
                         </div>
                     </div>
                 </div>
-            </section>
+
+                <div>
+                    <div>
+                        <h2>Facilities & services</h2>
+                        <div className={styles['ul-container']}>
+                            <div>
+                                <ul className={styles['check-list']}>
+                                    <li>Children welcome</li>
+                                    <li>Swimming poo</li>
+                                    <li>WiFi</li>
+                                    <li>Air conditioning</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <ul className={styles['check-list']}>
+                                    <li>Terrace</li>
+                                    <li>BBQ area</li>
+                                    <li>Safe box</li>
+                                    <li>Hair dryer</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>            
+        </section >
 
             <div>
                 <iframe
