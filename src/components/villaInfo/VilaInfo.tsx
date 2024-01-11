@@ -4,6 +4,7 @@ import HomeOutlinedIcon from '@mui/icons-material/HomeOutlined';
 import BedOutlinedIcon from '@mui/icons-material/BedOutlined';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import RestaurantOutlinedIcon from '@mui/icons-material/RestaurantOutlined';
+import CheckIcon from '@mui/icons-material/Check';
 import CheckCircleOutlineOutlinedIcon from '@mui/icons-material/CheckCircleOutlineOutlined';
 import SmallCarousel from '../carousels/smallCarousel/SmallCarousel';
 import BigCarousel from '../carousels/bigCarousel/BigCarousel';
@@ -87,21 +88,18 @@ const VillaInfo = () => {
                 </div>
 
                 <div className={styles['ul-container']}>
-                    <div>
-                        <ul className={styles.list}>
-                            <li>4 Двойни стай</li>
-                            <li>1 Дневна</li>
-                            <li>1 Кухненски бокс</li>
-                            <li>Климатизацирани</li>
-                        </ul>
-                    </div>
-                    <div>
-                        <ul className={styles.list}>
-                            <li>2 Бани</li>
-                            <li>Допълнителни легла*</li>
-                            <li>Веранда</li>
-                        </ul>
-                    </div>
+                    <ul className={styles.list}>
+                        <li>4 Двойни стай</li>
+                        <li>1 Дневна</li>
+                        <li>1 Кухненски бокс</li>
+                        <li>Климатизацирани</li>
+                    </ul>
+
+                    <ul className={styles.list}>
+                        <li>2 Бани</li>
+                        <li>Допълнителни легла*</li>
+                        <li>Веранда</li>
+                    </ul>
                 </div>
 
                 <div className={styles['important-info']}>
@@ -148,29 +146,53 @@ const VillaInfo = () => {
                 </div>
 
                 <div>
-                    <div>
+                    <div className={styles['border-top']}>
                         <h2>Facilities & services</h2>
                         <div className={styles['ul-container']}>
                             <div>
-                                <ul className={styles['check-list']}>
-                                    <li>Children welcome</li>
-                                    <li>Swimming poo</li>
-                                    <li>WiFi</li>
-                                    <li>Air conditioning</li>
+                                <ul className={styles.list}>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>Children welcome</p>
+                                    </li>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>Swimming poo</p>
+                                    </li>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>WiFi</p>
+                                    </li>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>Air conditioning</p>
+                                    </li>
                                 </ul>
                             </div>
                             <div>
-                                <ul className={styles['check-list']}>
-                                    <li>Terrace</li>
-                                    <li>BBQ area</li>
-                                    <li>Safe box</li>
-                                    <li>Hair dryer</li>
+                                <ul className={styles.list}>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>Terrace</p>
+                                    </li>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>BBQ area</p>
+                                    </li>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>Safe box</p>
+                                    </li>
+                                    <li>
+                                        <CheckIcon fontSize='large' className={styles['check-icon']} />
+                                        <p>Hair dryer</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </div>            
-        </section >
+                </div>
+            </section >
 
             <div>
                 <iframe

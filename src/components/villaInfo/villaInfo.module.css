@@ -33,6 +33,7 @@
 
 .carousel{
     width: 850px;
+    margin-top: 50px;
 }
 
 .accordion{
@@ -45,6 +46,7 @@
     gap: 30px;
     padding: 40px;
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 .info-left {
@@ -65,22 +67,43 @@
 
 .additional-info-container{
     display: flex;
-    justify-content: space-around;
+    gap: 100px;
     width: 750px;
     padding: 20px 0;
     border-bottom: 1px solid #e6e6e6;
     border-top: 1px solid #e6e6e6;
+    font-size: 18px;
 }
 
 .ul-container{
     display: flex;
-    gap: 250px;
+    width: 750px;
+    gap: 200px;
 }
 
 .list{
     list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 25px 0;
 }
 
 .bold{
     font-weight: bold;
+}
+
+.list > li {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-size: 18px;
+}
+
+.check-icon{
+    color: green;
+}
+
+.border-top{
+    border-top: 1px solid #e6e6e6;
+    margin-top: 50px;
 }
