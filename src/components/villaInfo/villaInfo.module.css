@@ -4,6 +4,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 50px;
 }
 
 .section:nth-child(4){
@@ -14,8 +15,8 @@
 
 .main-info-container {
     display: flex;
-    max-width: 500px;
-    gap: 30px;
+    width: 600px;
+    gap: 150px;
 }
 
 .inner {

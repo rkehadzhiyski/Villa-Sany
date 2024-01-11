@@ -38,7 +38,7 @@ const VillaInfo = () => {
 
                         <div className={styles.align}>
                             <BedOutlinedIcon />
-                            <p>4 стай 8 човека</p>
+                            <p>4 стаи 8 човека</p>
                         </div>
 
                         <div className={styles.align}>
