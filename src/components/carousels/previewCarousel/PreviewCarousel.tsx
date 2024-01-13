@@ -1,8 +1,8 @@
-import React, { useState, useEffect, useCallback } from 'react'
-import { EmblaOptionsType } from 'embla-carousel'
-import useEmblaCarousel from 'embla-carousel-react'
-import { Thumb } from './EmblaCarouselThumbsButton'
-import imageByIndex from './imageByIndex'
+import React, { useState, useEffect, useCallback } from 'react';
+import { EmblaOptionsType } from 'embla-carousel';
+import useEmblaCarousel from 'embla-carousel-react';
+import { Thumb } from './previewCarouselThumb';
+import imageByIndex from './imagesByIndex';
 
 type PropType = {
     slides: number[]
