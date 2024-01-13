@@ -19,9 +19,13 @@ const Navigation = () => {
                         color: '#3f3f43'
                     }} >За Вилата</Button>
                 </Link>
-                <Button sx={{
-                    color: '#3f3f43'
-                }} >About us</Button>
+
+                <Link to='/gallery'>
+                    <Button sx={{
+                        color: '#3f3f43'
+                    }} >Галерия</Button>
+                </Link>
+
                 <Link to='/questions-and-answers'>
                     <Button sx={{ color: '#3f3f43' }}>Въпроси</Button>
                 </Link>

@@ -1,4 +1,5 @@
 import Footer from "./components/footer/Footer";
+import Gallery from "./components/gallery/Gallery";
 import HomePage from "./components/homePage/HomePage";
 import Navigation from "./components/navigation/Navigation"
 import Questions from "./components/questions/Questions";
@@ -19,6 +20,7 @@ function App() {
                 <Route path='/' element={<HomePage />} />
                 <Route path='/questions-and-answers' element={<Questions />} />
                 <Route path='/villa-info' element={<VillaInfo />}></Route>
+                <Route path='/gallery' element={<Gallery />}></Route>
             </Routes>
             <Footer />
         </div>
