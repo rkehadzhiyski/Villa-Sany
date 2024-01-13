@@ -1,8 +1,8 @@
 import BigCarousel from '../carousels/bigCarousel/BigCarousel';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 
 import styles from './homePage.module.css'
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 const HomePage = () => {
     return (
@@ -46,13 +46,11 @@ const HomePage = () => {
                     <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
                         <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
                     </div>
-                </div>
-
-                <p className={styles.info}>За още снимки посетете галерията</p>
+                </div>              
                 
-                <Link to="/">
+                {/* <Link to="/">
                     <Button sx={{ color: '#3f3f43'}} size="large">Галерия</Button>
-                </Link>
+                </Link> */}
             </section>
         </>
     );
