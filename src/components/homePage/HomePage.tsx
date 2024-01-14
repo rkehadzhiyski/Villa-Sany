@@ -1,4 +1,5 @@
 import BigCarousel from '../carousels/bigCarousel/BigCarousel';
+import BasicTable from '../table/BasicTable';
 // import Button from '@mui/material/Button';
 
 import styles from './homePage.module.css'
@@ -46,8 +47,14 @@ const HomePage = () => {
                     <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
                         <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
                     </div>
-                </div>              
-                
+                </div>
+
+                <section>
+                    <div>
+                      <BasicTable/>
+                    </div>
+                </section>
+
                 {/* <Link to="/">
                     <Button sx={{ color: '#3f3f43'}} size="large">Галерия</Button>
                 </Link> */}
