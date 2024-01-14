@@ -15,6 +15,13 @@
     padding: 50px;
 }
 
+.table-section{
+    background-color: #f7f5f1;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
 .heading {
     color: #0A4960;
     font-size: 30px;

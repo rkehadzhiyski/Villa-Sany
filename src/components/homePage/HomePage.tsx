@@ -47,18 +47,18 @@ const HomePage = () => {
                     <div className={`${styles['image-container']} ${styles['zoom-effect']}`}>
                         <img className={styles.image} src="https://img.vila.bg/g/2260/184155.jpg" alt="" />
                     </div>
-                </div>
-
-                <section>
-                    <div>
-                      <BasicTable/>
-                    </div>
-                </section>
+                </div>               
 
                 {/* <Link to="/">
                     <Button sx={{ color: '#3f3f43'}} size="large">Галерия</Button>
                 </Link> */}
             </section>
+
+            <section className={styles['table-section']}>
+                    <div>
+                        <BasicTable />
+                    </div>
+                </section>
         </>
     );
 }
